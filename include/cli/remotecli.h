@@ -30,7 +30,7 @@
 #ifndef CLI_REMOTECLI_H_
 #define CLI_REMOTECLI_H_
 
-#include <cli/detail/inputhandler.h>
+#include "detail/inputhandler.h"
 #include <memory>
 #include "cli.h"
 #include "detail/server.h"
