@@ -52,7 +52,7 @@ namespace detail
 class LinuxKeyboard : public InputDevice
 {
 public:
-    explicit LinuxKeyboard(asio::BoostExecutor ex) :
+    explicit LinuxKeyboard(cli::detail::notboost::BoostExecutor ex):
         InputDevice(ex)
     {
         ToManualMode();
